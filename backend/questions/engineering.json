@@ -1,0 +1,1129 @@
+[
+  {
+    "level": 1,
+    "theme": "Surface Curiosity",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 1. Give brief encouraging feedback about their curiosity.",
+    "questions": [
+      {
+        "id": "eng_l1_q1",
+        "text": "When something breaks at home, you usually…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Figure out how it works and try fixing it",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Look up a tutorial and follow steps",
+            "signal": "analytical"
+          },
+          {
+            "label": "C",
+            "text": "Ask someone else to handle it",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Replace it without investigating",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q2",
+        "text": "Which school project sounds most fun?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Building a robot or circuit",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Designing a poster or video",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Organizing a fundraiser",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Researching how the body heals",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q3",
+        "text": "Free time activity you pick first:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Taking apart old gadgets",
+            "signal": "curious_tinkerer"
+          },
+          {
+            "label": "B",
+            "text": "Drawing or making music",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Playing a strategy game",
+            "signal": "analytical"
+          },
+          {
+            "label": "D",
+            "text": "Volunteering at a clinic",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q4",
+        "text": "You get excited when you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Solve a tricky puzzle",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "B",
+            "text": "Win a debate about ideas",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Perform on stage",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Comfort a friend who is upset",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q5",
+        "text": "Favorite part of science class:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Lab experiments and prototypes",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Memorizing facts for tests",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Group presentations",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Reading case studies",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q6",
+        "text": "A new app launches. You first want to…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Understand the tech behind it",
+            "signal": "tech_enthusiast"
+          },
+          {
+            "label": "B",
+            "text": "See if it looks beautiful",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Check if it could make money",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "See if it helps people stay healthy",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q7",
+        "text": "Which magazine would you grab?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Popular Mechanics or Wired",
+            "signal": "tech_enthusiast"
+          },
+          {
+            "label": "B",
+            "text": "Art & Design Quarterly",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Forbes Teen",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Science of Health",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q8",
+        "text": "When learning something new, you prefer…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Trying it yourself immediately",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Watching someone demonstrate",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Discussing it in a group",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Reading stories about real people",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q9",
+        "text": "You admire people who…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Invent things that change daily life",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Create breathtaking art",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Build successful companies",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Save lives in emergencies",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q10",
+        "text": "Weekend maker fair — you head to…",
+        "options": [
+          {
+            "label": "A",
+            "text": "The robotics booth",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "The digital art install",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "The young entrepreneur pitch",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "The first-aid demo",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q11",
+        "text": "Which question sounds coolest?",
+        "options": [
+          {
+            "label": "A",
+            "text": "How do bridges stay up?",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "What makes a song feel sad?",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Why do some brands go viral?",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "How does the immune system work?",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q12",
+        "text": "You notice a loose bike chain. You…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Grab tools and adjust it",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Sketch a better chain design",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Ask the shop owner how they profit",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Make sure the rider is okay first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q13",
+        "text": "Best kind of homework:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Build a model or write code",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Write a creative story",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Plan a mock business",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Interview someone about wellness",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q14",
+        "text": "You lose track of time when…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Debugging or improving a design",
+            "signal": "detail_oriented"
+          },
+          {
+            "label": "B",
+            "text": "Practicing an instrument",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Negotiating in a game",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Listening to someone's problem",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l1_q15",
+        "text": "Pick a YouTube rabbit hole:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Engineering fails explained",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Speed painting timelapses",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Startup founder interviews",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Surgery room documentaries",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "theme": "Skill Alignment",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 2. Acknowledge their strengths and suggest one area to explore.",
+    "questions": [
+      {
+        "id": "eng_l2_q1",
+        "text": "Math word problem — your approach:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Draw a diagram and define variables",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "Guess and adjust until it works",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "C",
+            "text": "Ask a friend for their method",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Skip to the answer key",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q2",
+        "text": "Group project role you naturally take:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Technical lead who builds the prototype",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Visual designer",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Presenter and pitch person",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Research on user needs",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q3",
+        "text": "You feel proudest when you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Make something that actually works",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Express an idea beautifully",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Persuade others to agree",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Help someone feel better",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q4",
+        "text": "Which skill do friends ask you for?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Fixing tech or explaining how things work",
+            "signal": "tech_enthusiast"
+          },
+          {
+            "label": "B",
+            "text": "Editing photos or layouts",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Planning events or budgets",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Calming nerves before a test",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q5",
+        "text": "Coding or circuits — your reaction:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Curious and ready to experiment",
+            "signal": "curious_tinkerer"
+          },
+          {
+            "label": "B",
+            "text": "Prefer creative tools instead",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Interested in the business use",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "More into biology labs",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q6",
+        "text": "When instructions are unclear, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Test small parts until you understand",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "B",
+            "text": "Improvise based on feel",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Find someone to clarify quickly",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Follow the safest known path",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q7",
+        "text": "Competition that appeals to you:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Science olympiad or hackathon",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Art show or film fest",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Mock stock market",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Health science fair",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q8",
+        "text": "You organize your notes by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Systems, flowcharts, and specs",
+            "signal": "detail_oriented"
+          },
+          {
+            "label": "B",
+            "text": "Mood boards and sketches",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Goals, timelines, and metrics",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "People stories and case notes",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q9",
+        "text": "Favorite type of puzzle:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Logic grids and optimization",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "Visual pattern matching",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Market strategy scenarios",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Diagnosis mystery cases",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q10",
+        "text": "When a teammate is stuck, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Break the problem into testable steps",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "B",
+            "text": "Suggest a creative workaround",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Reframe the goal and delegate",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Check how they are feeling first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q11",
+        "text": "Which elective would you choose?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Robotics or AP Computer Science",
+            "signal": "tech_enthusiast"
+          },
+          {
+            "label": "B",
+            "text": "Studio art or theater",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Entrepreneurship",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Anatomy or EMT basics",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q12",
+        "text": "You trust decisions based on…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Data, tests, and evidence",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "Gut feeling and expression",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "ROI and stakeholder impact",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "How people will be affected",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q13",
+        "text": "Weekend project idea:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Automate something at home with sensors",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Short film about your neighborhood",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Sell handmade goods online",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Create a wellness guide for peers",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q14",
+        "text": "You enjoy precision work like…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Calibrating measurements in a build",
+            "signal": "detail_oriented"
+          },
+          {
+            "label": "B",
+            "text": "Color grading a photo",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Balancing a budget spreadsheet",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Tracking symptoms for a study",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l2_q15",
+        "text": "What feels like \"your kind\" of challenge?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Design under constraints with limited parts",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Tell a story with no words",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Turn an idea into a real product",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Improve care for one patient",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "theme": "Values and Trade-offs",
+    "format": "binary_choice",
+    "agent_feedback_prompt": "The student just finished level 3. Reflect on the values they revealed and affirm their thoughtfulness.",
+    "questions": [
+      {
+        "id": "eng_l3_q1",
+        "text": "Would you rather spend a month building a prototype alone or presenting someone else's finished product?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Build the prototype myself",
+            "signal": "builder"
+          },
+          {
+            "label": "B",
+            "text": "Present the finished product",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q2",
+        "text": "If a project might fail technically but teaches you a lot, do you still pursue it?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — learning beats playing it safe",
+            "signal": "curious_tinkerer"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer guaranteed outcomes",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q3",
+        "text": "Would you choose a career fixing critical infrastructure even if it is less visible?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — impact matters more than fame",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "No — I want public recognition",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q4",
+        "text": "Do you enjoy optimizing a system until every detail is right?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — refinement is satisfying",
+            "signal": "detail_oriented"
+          },
+          {
+            "label": "B",
+            "text": "No — I move on once it is good enough",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q5",
+        "text": "Would you take apart a working device just to understand it?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Absolutely",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "Only if it is already broken",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q6",
+        "text": "Is it worth staying up late to solve one stubborn bug?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — I need closure on hard problems",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "B",
+            "text": "No — sleep and fresh eyes win",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q7",
+        "text": "Would you rather design for maximum efficiency or maximum accessibility?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Maximum efficiency",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "Maximum accessibility",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q8",
+        "text": "If math gets harder, do you see it as a reason to switch paths?",
+        "options": [
+          {
+            "label": "A",
+            "text": "No — harder means more interesting",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "Yes — I prefer less abstract work",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q9",
+        "text": "Would you volunteer to maintain old systems others ignore?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — someone has to keep things running",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "No — I only want cutting-edge projects",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q10",
+        "text": "Do you prefer working with physical materials over purely digital tools?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — I like tangible results",
+            "signal": "hands_on"
+          },
+          {
+            "label": "B",
+            "text": "No — digital is enough for me",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q11",
+        "text": "Would you accept a role with repetitive testing if it improves safety?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — safety is non-negotiable",
+            "signal": "detail_oriented"
+          },
+          {
+            "label": "B",
+            "text": "No — repetition drains me",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q12",
+        "text": "Is being the \"person who figures it out\" important to your identity?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Very important",
+            "signal": "problem_solver"
+          },
+          {
+            "label": "B",
+            "text": "Not really — I prefer other roles",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q13",
+        "text": "Would you trade creative freedom for engineering rigor?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — rigor leads to real solutions",
+            "signal": "analytical"
+          },
+          {
+            "label": "B",
+            "text": "No — freedom matters more",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q14",
+        "text": "Do open-ended design challenges energize you more than clear instructions?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — I like defining the problem",
+            "signal": "systems_thinker"
+          },
+          {
+            "label": "B",
+            "text": "No — clear instructions reduce stress",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "eng_l3_q15",
+        "text": "Would you study an extra year of advanced math for an engineering track?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — worth the depth",
+            "signal": "tech_enthusiast"
+          },
+          {
+            "label": "B",
+            "text": "No — I would explore other fields",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "theme": "Future Vision",
+    "format": "open_ended",
+    "agent_feedback_prompt": "The student just finished level 4. Celebrate their vision and invite them to imagine next steps.",
+    "questions": [
+      {
+        "id": "eng_l4_q1",
+        "text": "Describe a problem in your school or community you would redesign with technology.",
+        "expected_signal": "hands_on"
+      },
+      {
+        "id": "eng_l4_q2",
+        "text": "What would you build if you had a workshop and one month?",
+        "expected_signal": "analytical"
+      },
+      {
+        "id": "eng_l4_q3",
+        "text": "Which everyday object frustrates you and how would you improve it?",
+        "expected_signal": "problem_solver"
+      },
+      {
+        "id": "eng_l4_q4",
+        "text": "Imagine you lead a team fixing a failing bridge — what is your first step?",
+        "expected_signal": "builder"
+      },
+      {
+        "id": "eng_l4_q5",
+        "text": "What kind of engineer do you hope to become and why?",
+        "expected_signal": "systems_thinker"
+      },
+      {
+        "id": "eng_l4_q6",
+        "text": "Tell us about a time you persisted through a technical setback.",
+        "expected_signal": "curious_tinkerer"
+      },
+      {
+        "id": "eng_l4_q7",
+        "text": "If you could automate one chore for every family, what and how?",
+        "expected_signal": "detail_oriented"
+      },
+      {
+        "id": "eng_l4_q8",
+        "text": "What ethical line would you not cross when building new tech?",
+        "expected_signal": "tech_enthusiast"
+      },
+      {
+        "id": "eng_l4_q9",
+        "text": "Describe a future invention you think students your age could actually create.",
+        "expected_signal": "hands_on"
+      },
+      {
+        "id": "eng_l4_q10",
+        "text": "How would you explain your dream project to a non-technical friend?",
+        "expected_signal": "analytical"
+      },
+      {
+        "id": "eng_l4_q11",
+        "text": "What skills do you want to master before college?",
+        "expected_signal": "problem_solver"
+      },
+      {
+        "id": "eng_l4_q12",
+        "text": "Which global challenge would you tackle with engineering first?",
+        "expected_signal": "builder"
+      },
+      {
+        "id": "eng_l4_q13",
+        "text": "Describe the workspace where you do your best building thinking.",
+        "expected_signal": "systems_thinker"
+      },
+      {
+        "id": "eng_l4_q14",
+        "text": "What does \"success\" look like for you in a technical career?",
+        "expected_signal": "curious_tinkerer"
+      },
+      {
+        "id": "eng_l4_q15",
+        "text": "Write a short vision statement for the engineer you are becoming.",
+        "expected_signal": "detail_oriented"
+      }
+    ]
+  }
+]

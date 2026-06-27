@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerQuest — Lemonade Stand (Test Harness)</title>
+  <script src="https://unpkg.com/@daily-co/daily-js"></script>
+  <style>
+    :root {
+      --lemon: #ffd23f;
+      --lemon-deep: #f5a623;
+      --ink: #2b2b1f;
+      --paper: #fffdf5;
+      --line: #ece4c7;
+      --good: #2e7d32;
+      --bad: #c62828;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(160deg, #fff9e0, #fff 60%);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px 80px; }
+    header h1 { font-size: 30px; margin: 0 0 4px; }
+    header p { margin: 0; color: #7a7456; }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      margin-top: 22px;
+      box-shadow: 0 6px 24px rgba(180, 150, 40, 0.08);
+    }
+    .scenario { font-size: 16px; line-height: 1.55; color: #5c5640; }
+    .skills { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    .chip {
+      background: #fff3c4; border: 1px solid var(--lemon-deep);
+      color: #8a6400; font-size: 12px; font-weight: 600;
+      padding: 4px 10px; border-radius: 999px;
+    }
+    .row { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+    .field { flex: 1; min-width: 180px; }
+    label { display: block; font-weight: 600; font-size: 14px; margin: 10px 0 6px; }
+    input {
+      width: 100%; padding: 10px 12px; border: 1px solid var(--line);
+      border-radius: 10px; font-size: 15px; background: #fff;
+    }
+    .decision { margin: 18px 0; }
+    .decision .prompt { font-weight: 700; margin-bottom: 10px; font-size: 16px; }
+    .options { display: grid; gap: 10px; }
+    .opt {
+      display: flex; align-items: center; gap: 10px;
+      border: 1.5px solid var(--line); border-radius: 12px;
+      padding: 12px 14px; cursor: pointer; background: #fff;
+      transition: all .12s ease; font-size: 15px;
+    }
+    .opt:hover { border-color: var(--lemon-deep); }
+    .opt.selected { border-color: var(--lemon-deep); background: #fff7d6; }
+    .opt .badge {
+      width: 26px; height: 26px; flex: none; border-radius: 8px;
+      background: #f0e7c0; color: #8a6400; font-weight: 700;
+      display: grid; place-items: center; font-size: 13px;
+    }
+    .opt.selected .badge { background: var(--lemon-deep); color: #fff; }
+    button.cta {
+      margin-top: 24px; width: 100%; padding: 15px;
+      background: var(--lemon-deep); color: #fff; border: none;
+      border-radius: 12px; font-size: 17px; font-weight: 700; cursor: pointer;
+    }
+    button.cta:disabled { opacity: .5; cursor: not-allowed; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .stat { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 14px; text-align: center; }
+    .stat .num { font-size: 22px; font-weight: 800; }
+    .stat .lbl { font-size: 12px; color: #8a845f; margin-top: 2px; }
+    .profit-pos { color: var(--good); }
+    .profit-neg { color: var(--bad); }
+    .feedback { font-size: 16px; line-height: 1.6; background: #fff7d6; border-radius: 12px; padding: 16px; }
+    .feedback .who { font-weight: 700; color: var(--lemon-deep); display: block; margin-bottom: 6px; }
+    .videoStage {
+      position: relative; width: 100%; aspect-ratio: 16 / 9;
+      background: #14130d; border-radius: 14px; overflow: hidden; margin-top: 12px;
+    }
+    .videoStage video { width: 100%; height: 100%; object-fit: cover; background: #000; }
+    .videoStatus {
+      position: absolute; inset: 0; display: grid; place-items: center;
+      color: #fff; font-size: 15px; text-align: center; padding: 20px;
+      background: rgba(0,0,0,.45);
+    }
+    .videoStatus.hidden { display: none; }
+    .unmute {
+      position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%);
+      background: #fff; color: var(--ink); border: none; border-radius: 999px;
+      padding: 10px 18px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.3);
+    }
+    .unmute.hidden { display: none; }
+    .endBtn {
+      position: absolute; top: 12px; right: 12px; z-index: 2;
+      background: rgba(0,0,0,.55); color:#fff; border:none; border-radius: 8px;
+      padding: 6px 12px; cursor:pointer; font-size: 13px;
+    }
+    .muted { color: #8a845f; font-size: 13px; }
+    .hidden { display: none; }
+    .err { color: var(--bad); font-weight: 600; }
+    .toolbar { display: flex; gap: 10px; align-items: center; margin-top: 10px; }
+    .toggle { font-size: 13px; color: #6b6648; display: flex; align-items: center; gap: 6px; }
+    .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #fff; border-top-color: transparent; border-radius: 50%; animation: spin .8s linear infinite; vertical-align: -3px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🍋 Lemonade Stand — Test Harness</h1>
+      <p>Business Kingdom · Level 1: Entrepreneurship · powered by your local backend</p>
+    </header>
+
+    <div id="loadError" class="card err hidden"></div>
+
+    <div class="card">
+      <div class="row">
+        <div class="field">
+          <label for="name">Student name</label>
+          <input id="name" value="Alex" />
+        </div>
+        <div class="field">
+          <label for="grade">Grade</label>
+          <input id="grade" type="number" value="8" />
+        </div>
+      </div>
+    </div>
+
+    <div id="challengeCard" class="card">
+      <p class="muted">Loading challenge…</p>
+    </div>
+
+    <div id="resultCard" class="card hidden">
+      <h2 style="margin-top:0">Results</h2>
+      <div class="stats" id="stats"></div>
+      <div style="margin-top:18px" class="feedback">
+        <span class="who" id="mentorName">Sam Park</span>
+        <span id="feedbackText"></span>
+      </div>
+      <div id="videoBlock" style="margin-top:18px">
+        <div class="muted">Live video debrief with your mentor (joins automatically):</div>
+        <div class="videoStage">
+          <button class="endBtn hidden" id="endBtn">End call</button>
+          <video id="replicaVideo" autoplay playsinline></video>
+          <div class="videoStatus" id="videoStatus">Connecting to your mentor…</div>
+          <button class="unmute hidden" id="unmuteBtn">🔊 Tap to hear your mentor</button>
+        </div>
+      </div>
+      <div id="videoError" class="err hidden" style="margin-top:12px"></div>
+    </div>
+  </div>
+
+  <script>
+    const API = location.origin;
+    let challenge = null;
+    const selections = {};
+    let callObject = null;
+    let remoteStream = null;
+
+    async function loadChallenge() {
+      try {
+        const res = await fetch(`${API}/business/challenge`);
+        if (!res.ok) throw new Error(`GET /business/challenge -> ${res.status}`);
+        challenge = await res.json();
+        renderChallenge();
+      } catch (e) {
+        const box = document.getElementById('loadError');
+        box.classList.remove('hidden');
+        box.textContent = `Could not load challenge: ${e.message}. Is the backend running on ${API}?`;
+      }
+    }
+
+    function renderChallenge() {
+      const card = document.getElementById('challengeCard');
+      card.innerHTML = `
+        <h2 style="margin-top:0">${challenge.emoji} ${challenge.title}</h2>
+        <p class="scenario">${challenge.scenario}</p>
+        <p class="scenario"><strong>Goal:</strong> ${challenge.objective}</p>
+        <div class="skills">${challenge.skills.map(s => `<span class="chip">${s}</span>`).join('')}</div>
+        <div id="decisions"></div>
+        <div class="toolbar">
+          <label class="toggle"><input type="checkbox" id="testMode" /> testMode (skip live video, no Tavus billing)</label>
+        </div>
+        <button class="cta" id="runBtn" disabled>Run my stand 🍋</button>
+      `;
+      const wrap = document.getElementById('decisions');
+      challenge.decisions.forEach(d => {
+        const block = document.createElement('div');
+        block.className = 'decision';
+        block.innerHTML = `<div class="prompt">${d.prompt}</div>`;
+        const opts = document.createElement('div');
+        opts.className = 'options';
+        d.options.forEach(o => {
+          const el = document.createElement('div');
+          el.className = 'opt';
+          el.innerHTML = `<span class="badge">${o.label}</span><span>${o.text}</span>`;
+          el.onclick = () => {
+            selections[d.id] = o.label;
+            [...opts.children].forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            maybeEnable();
+          };
+          opts.appendChild(el);
+        });
+        block.appendChild(opts);
+        wrap.appendChild(block);
+      });
+      document.getElementById('runBtn').onclick = submit;
+    }
+
+    function maybeEnable() {
+      const allChosen = challenge.decisions.every(d => selections[d.id]);
+      document.getElementById('runBtn').disabled = !allChosen;
+    }
+
+    async function submit() {
+      const btn = document.getElementById('runBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Running your day…';
+      try {
+        const res = await fetch(`${API}/business/feedback`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            studentName: document.getElementById('name').value || 'Alex',
+            grade: Number(document.getElementById('grade').value) || undefined,
+            testMode: document.getElementById('testMode').checked,
+            answers: selections,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+        renderResult(data);
+      } catch (e) {
+        alert('Error: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Run again 🔁';
+      }
+    }
+
+    function renderResult(data) {
+      const s = data.simulation;
+      document.getElementById('resultCard').classList.remove('hidden');
+      document.getElementById('mentorName').textContent = data.mentorName;
+      document.getElementById('feedbackText').textContent = data.feedback;
+      const profitClass = s.profit >= 0 ? 'profit-pos' : 'profit-neg';
+      document.getElementById('stats').innerHTML = `
+        <div class="stat"><div class="num">${s.sales}/${s.inventory}</div><div class="lbl">Cups sold</div></div>
+        <div class="stat"><div class="num">$${s.revenue.toFixed(2)}</div><div class="lbl">Revenue</div></div>
+        <div class="stat"><div class="num">$${s.totalCost.toFixed(2)}</div><div class="lbl">Costs</div></div>
+        <div class="stat"><div class="num ${profitClass}">$${s.profit.toFixed(2)}</div><div class="lbl">Profit</div></div>
+      `;
+
+      const videoBlock = document.getElementById('videoBlock');
+      const videoError = document.getElementById('videoError');
+      videoError.classList.add('hidden');
+
+      const isTestMode = document.getElementById('testMode').checked;
+      if (isTestMode) {
+        videoBlock.classList.remove('hidden');
+        document.getElementById('endBtn').classList.add('hidden');
+        document.getElementById('unmuteBtn').classList.add('hidden');
+        const statusEl = document.getElementById('videoStatus');
+        statusEl.classList.remove('hidden');
+        statusEl.textContent = 'testMode is on — live video skipped (no replica joins). Uncheck testMode to talk to your mentor.';
+      } else if (data.video && data.video.conversationUrl) {
+        videoBlock.classList.remove('hidden');
+        startCall(data.video.conversationUrl, document.getElementById('name').value || 'Guest');
+      } else {
+        videoBlock.classList.add('hidden');
+        if (data.video && data.video.error) {
+          videoError.classList.remove('hidden');
+          videoError.textContent = 'Video unavailable: ' + data.video.error;
+        }
+      }
+      document.getElementById('resultCard').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    async function startCall(url, userName) {
+      const videoEl = document.getElementById('replicaVideo');
+      const statusEl = document.getElementById('videoStatus');
+      const unmuteBtn = document.getElementById('unmuteBtn');
+      const endBtn = document.getElementById('endBtn');
+
+      statusEl.classList.remove('hidden');
+      statusEl.textContent = 'Connecting to your mentor…';
+      unmuteBtn.classList.add('hidden');
+
+      // Tear down any previous call (e.g. "Run again").
+      await endCall();
+
+      remoteStream = new MediaStream();
+      videoEl.srcObject = remoteStream;
+
+      callObject = window.DailyIframe.createCallObject({
+        subscribeToTracksAutomatically: true,
+      });
+
+      callObject
+        .on('track-started', (ev) => {
+          if (!ev.participant || ev.participant.local) return; // only the replica
+          remoteStream.addTrack(ev.track);
+          statusEl.classList.add('hidden');
+          endBtn.classList.remove('hidden');
+          videoEl.play().catch(() => {
+            // Autoplay with sound blocked — offer a tap-to-unmute fallback.
+            unmuteBtn.classList.remove('hidden');
+          });
+        })
+        .on('track-stopped', (ev) => {
+          if (ev.track && remoteStream) {
+            try { remoteStream.removeTrack(ev.track); } catch (_) {}
+          }
+        })
+        .on('left-meeting', () => {
+          statusEl.classList.remove('hidden');
+          statusEl.textContent = 'Call ended.';
+          endBtn.classList.add('hidden');
+        })
+        .on('error', (e) => {
+          statusEl.classList.remove('hidden');
+          statusEl.textContent = 'Call error: ' + (e && e.errorMsg ? e.errorMsg : 'unknown');
+        });
+
+      unmuteBtn.onclick = () => {
+        videoEl.muted = false;
+        videoEl.play();
+        unmuteBtn.classList.add('hidden');
+      };
+      endBtn.onclick = () => endCall();
+
+      try {
+        // Student's mic on (so they can talk back), camera off to reduce friction.
+        await callObject.join({ url, userName, startVideoOff: true, startAudioOff: false });
+      } catch (e) {
+        statusEl.classList.remove('hidden');
+        statusEl.textContent = 'Could not join the video call: ' + e.message;
+      }
+    }
+
+    async function endCall() {
+      if (callObject) {
+        try { await callObject.leave(); } catch (_) {}
+        try { await callObject.destroy(); } catch (_) {}
+        callObject = null;
+      }
+      if (remoteStream) {
+        remoteStream.getTracks().forEach(t => { try { remoteStream.removeTrack(t); } catch (_) {} });
+        remoteStream = null;
+      }
+    }
+
+    window.addEventListener('beforeunload', endCall);
+    loadChallenge();
+  </script>
+</body>
+</html>

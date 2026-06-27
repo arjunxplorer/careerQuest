@@ -1,0 +1,233 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * CareerQuest — Jungle / Parchment / Adventure aesthetic.
+ * Warm jungle greens, sun-bleached parchment, hammered gold,
+ * carved-wood ribbons. Inspired by Jumanji: Epic Run.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-glow: var(--primary-glow);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-forest-deep: var(--forest-deep);
+  --color-forest-mist: var(--forest-mist);
+  --color-parchment: var(--parchment);
+  --color-parchment-deep: var(--parchment-deep);
+  --color-ink: var(--ink);
+  --color-wood: var(--wood);
+  --color-wood-dark: var(--wood-dark);
+
+  --font-display: "Lilita One", "Cinzel", "Georgia", serif;
+  --font-serif-quest: "IM Fell English", "IM Fell English SC", "Georgia", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+:root {
+  --radius: 0.875rem;
+
+  /* Warmer jungle background */
+  --background: oklch(0.96 0.025 80);             /* warm cream */
+  --foreground: oklch(0.27 0.05 60);              /* deep ink brown */
+
+  --card: oklch(0.97 0.03 75);
+  --card-foreground: var(--foreground);
+  --popover: oklch(0.97 0.03 75);
+  --popover-foreground: var(--foreground);
+
+  --primary: oklch(0.62 0.16 150);                /* deeper jungle emerald */
+  --primary-foreground: oklch(0.99 0.01 90);
+  --primary-glow: oklch(0.78 0.17 150);
+
+  --secondary: oklch(0.55 0.13 220);              /* dusk sky */
+  --secondary-foreground: oklch(0.99 0.01 90);
+
+  --accent: oklch(0.78 0.16 75);                  /* hammered gold */
+  --accent-foreground: oklch(0.25 0.05 60);
+
+  --muted: oklch(0.92 0.03 75);
+  --muted-foreground: oklch(0.45 0.05 60);
+
+  --destructive: oklch(0.55 0.22 30);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --border: oklch(0.82 0.04 70);
+  --input: oklch(0.88 0.03 75);
+  --ring: oklch(0.62 0.16 150);
+
+  --forest-deep: oklch(0.28 0.06 155);
+  --forest-mist: oklch(0.55 0.08 170);
+
+  /* Parchment & material tokens */
+  --parchment: oklch(0.93 0.05 80);
+  --parchment-deep: oklch(0.84 0.07 75);
+  --ink: oklch(0.28 0.06 55);
+  --wood: oklch(0.45 0.09 50);
+  --wood-dark: oklch(0.32 0.08 45);
+
+  /* Gradients */
+  --gradient-jungle: radial-gradient(ellipse at top, oklch(0.4 0.1 150 / 0.55), transparent 60%),
+                     radial-gradient(ellipse at bottom, oklch(0.35 0.08 180 / 0.55), transparent 55%),
+                     linear-gradient(180deg, oklch(0.22 0.05 160) 0%, oklch(0.18 0.04 175) 100%);
+  --gradient-gold: linear-gradient(180deg, oklch(0.9 0.14 90) 0%, oklch(0.78 0.16 75) 50%, oklch(0.62 0.16 60) 100%);
+  --gradient-gold-rim: linear-gradient(180deg, oklch(0.95 0.1 95), oklch(0.7 0.17 65));
+  --gradient-emerald: linear-gradient(180deg, oklch(0.78 0.17 150) 0%, oklch(0.62 0.16 150) 50%, oklch(0.46 0.13 150) 100%);
+  --gradient-wood: linear-gradient(180deg, oklch(0.52 0.1 50) 0%, oklch(0.38 0.09 45) 100%);
+  --gradient-parchment: linear-gradient(180deg, oklch(0.95 0.04 85) 0%, oklch(0.88 0.06 75) 100%);
+  --gradient-portal: conic-gradient(from 0deg, oklch(0.62 0.16 150), oklch(0.78 0.16 75), oklch(0.46 0.13 150), oklch(0.62 0.16 150));
+
+  /* Shadows — chunky, tactile, hand-carved */
+  --shadow-chunk: 0 6px 0 0 oklch(0.32 0.08 45), 0 10px 20px -5px oklch(0.2 0.05 60 / 0.4);
+  --shadow-chunk-gold: 0 6px 0 0 oklch(0.45 0.13 50), 0 10px 22px -4px oklch(0.5 0.18 60 / 0.5);
+  --shadow-chunk-emerald: 0 6px 0 0 oklch(0.36 0.1 150), 0 10px 22px -4px oklch(0.4 0.15 150 / 0.5);
+  --shadow-card: 0 14px 40px -18px oklch(0.2 0.05 60 / 0.35), 0 2px 0 oklch(0.7 0.08 65 / 0.6) inset;
+  --shadow-parchment: 0 24px 60px -20px oklch(0.25 0.06 55 / 0.5), 0 1px 0 oklch(1 0 0 / 0.6) inset;
+  --shadow-gold: 0 0 30px oklch(0.78 0.16 75 / 0.5);
+
+  --ease-quest: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.005em;
+  }
+}
+
+@utility bg-gradient-jungle { background: var(--gradient-jungle); }
+@utility bg-gradient-emerald { background: var(--gradient-emerald); }
+@utility bg-gradient-gold { background: var(--gradient-gold); }
+@utility bg-gradient-gold-rim { background: var(--gradient-gold-rim); }
+@utility bg-gradient-wood { background: var(--gradient-wood); }
+@utility bg-gradient-parchment { background: var(--gradient-parchment); }
+@utility bg-gradient-portal { background: var(--gradient-portal); }
+
+@utility shadow-chunk { box-shadow: var(--shadow-chunk); }
+@utility shadow-chunk-gold { box-shadow: var(--shadow-chunk-gold); }
+@utility shadow-chunk-emerald { box-shadow: var(--shadow-chunk-emerald); }
+@utility shadow-card-quest { box-shadow: var(--shadow-card); }
+@utility shadow-parchment { box-shadow: var(--shadow-parchment); }
+@utility shadow-gold { box-shadow: var(--shadow-gold); }
+@utility text-balance { text-wrap: balance; }
+
+@utility font-serif-quest { font-family: var(--font-serif-quest); }
+
+/* Parchment paper texture — layered noise + warm tone */
+@utility parchment {
+  background-color: oklch(0.93 0.05 82);
+  background-image:
+    radial-gradient(ellipse at 20% 10%, oklch(0.85 0.08 70 / 0.5), transparent 55%),
+    radial-gradient(ellipse at 80% 90%, oklch(0.82 0.09 65 / 0.55), transparent 55%),
+    radial-gradient(ellipse at 50% 50%, oklch(0.96 0.03 85 / 0.4), transparent 70%),
+    repeating-radial-gradient(circle at 30% 40%, oklch(0.7 0.08 55 / 0.05) 0 2px, transparent 2px 6px),
+    repeating-linear-gradient(15deg, oklch(0.8 0.06 60 / 0.03) 0 3px, transparent 3px 7px);
+  background-blend-mode: multiply;
+  border: 1px solid oklch(0.6 0.08 55 / 0.4);
+}
+
+/* Subtle leaf canopy speckle for jungle backgrounds */
+@utility jungle-speckle {
+  background-image:
+    radial-gradient(circle at 12% 18%, oklch(0.55 0.12 145 / 0.18) 0 14px, transparent 15px),
+    radial-gradient(circle at 82% 28%, oklch(0.5 0.1 160 / 0.18) 0 18px, transparent 19px),
+    radial-gradient(circle at 22% 78%, oklch(0.45 0.1 170 / 0.18) 0 22px, transparent 23px),
+    radial-gradient(circle at 76% 82%, oklch(0.5 0.1 150 / 0.18) 0 16px, transparent 17px);
+}
+
+@utility holo-text {
+  background: linear-gradient(120deg, oklch(0.78 0.16 75), oklch(0.92 0.14 90), oklch(0.78 0.16 75));
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: holoShift 4s linear infinite;
+}
+
+@keyframes holoShift { to { background-position: 200% 0; } }
+@keyframes portalSpin { to { transform: rotate(360deg); } }
+@utility portal-spin { animation: portalSpin 6s linear infinite; }
+
+@keyframes float-soft { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@utility float-soft { animation: float-soft 5s ease-in-out infinite; }
+
+/* 3D chunky press button — emboss + bottom shadow */
+@utility btn-3d {
+  position: relative;
+  transition: transform 0.15s var(--ease-quest), box-shadow 0.15s var(--ease-quest);
+}
+@utility btn-3d-press {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 0 oklch(0.32 0.08 45), 0 4px 12px -4px oklch(0.2 0.05 60 / 0.4) !important;
+}
+
+/* Carved gold ribbon header (like Jumanji "NOTIFICATIONS" plate) */
+@utility ribbon-gold {
+  background: var(--gradient-gold);
+  border: 2px solid oklch(0.45 0.13 50);
+  border-radius: 12px;
+  box-shadow:
+    inset 0 2px 0 oklch(1 0 0 / 0.5),
+    inset 0 -3px 0 oklch(0.5 0.14 55 / 0.6),
+    0 4px 0 0 oklch(0.35 0.1 45),
+    0 8px 16px -4px oklch(0.2 0.05 50 / 0.5);
+}
+
+/* Stone path texture for the discovery run track */
+@utility stone-path {
+  background-color: #5b4a36;
+  background-image:
+    /* mossy patches */
+    radial-gradient(ellipse 60px 30px at 18% 22%, rgba(34,197,94,0.45), transparent 70%),
+    radial-gradient(ellipse 90px 40px at 78% 70%, rgba(22,163,74,0.4), transparent 70%),
+    radial-gradient(ellipse 50px 22px at 42% 84%, rgba(74,222,128,0.35), transparent 70%),
+    /* stone slabs - vertical mortar lines */
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.55) 0 3px, transparent 3px 110px),
+    /* stone slabs - horizontal mortar lines */
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.45) 0 3px, transparent 3px 70px),
+    /* slab tint variation */
+    repeating-linear-gradient(90deg, rgba(120,90,60,0.25) 0 55px, rgba(80,60,40,0.25) 55px 110px),
+    /* base gradient */
+    linear-gradient(180deg, #6b5942 0%, #4a3c2c 100%);
+}
+
+/* Sky gradient with sun behind island cards */
+@utility sky-island-bg {
+  background:
+    radial-gradient(circle at 80% 18%, rgba(251,191,36,0.85) 0%, rgba(251,191,36,0) 35%),
+    linear-gradient(180deg, #0EA5E9 0%, #38BDF8 30%, #BAE6FD 65%, #FEF3C7 100%);
+}

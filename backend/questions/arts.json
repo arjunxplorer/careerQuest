@@ -1,0 +1,1129 @@
+[
+  {
+    "level": 1,
+    "theme": "Surface Curiosity",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 1. Give brief encouraging feedback about their curiosity.",
+    "questions": [
+      {
+        "id": "art_l1_q1",
+        "text": "Blank notebook — first thing you add:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sketches and color swatches",
+            "signal": "visual_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Formulas and diagrams",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Budget tables",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Health tips for friends",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q2",
+        "text": "Which assignment do you replay in your head?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The open-ended art project",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "The science fair build",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "The business pitch",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "The biology lab report",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q3",
+        "text": "Museum visit — you linger longest at…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Interactive installations",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "Historical machinery",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Corporate innovation exhibit",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Medical discovery wing",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q4",
+        "text": "You notice lighting in a room because…",
+        "options": [
+          {
+            "label": "A",
+            "text": "It changes mood and composition",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "It affects screen glare",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "It impacts retail sales",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "It helps patients relax",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q5",
+        "text": "Favorite way to share ideas:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Visual story or performance",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "Spreadsheet of results",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Slide deck with metrics",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Written care plan",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q6",
+        "text": "When music plays, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Imagine scenes or colors",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "Analyze the production tech",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Think about marketing it",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Notice how it calms people",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q7",
+        "text": "Which club sounds best?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yearbook, theater, or design",
+            "signal": "collaborative_creator"
+          },
+          {
+            "label": "B",
+            "text": "Robotics club",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Investment club",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Red Cross club",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q8",
+        "text": "You collect…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Images, lyrics, or textures that inspire you",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "Gadget specs",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Business articles",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Anatomy flashcards",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q9",
+        "text": "Compliment you hear most:",
+        "options": [
+          {
+            "label": "A",
+            "text": "You have a great eye for style",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "You are great at fixing things",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "You could sell anything",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "You are so caring",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q10",
+        "text": "Rainy day — you choose:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Drawing, writing, or editing video",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "Coding a side project",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Researching side hustles",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Reading about nutrition",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q11",
+        "text": "Which TikTok account would you run?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Creative tutorials or short films",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "Tech teardowns",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Finance tips for teens",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Wellness myth-busting",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q12",
+        "text": "You rearrange your room to…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Express a new vibe or theme",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "Fit more equipment",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Optimize study efficiency",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Create a calming recovery space",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q13",
+        "text": "Story that sticks with you:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Character-driven drama",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "Engineering disaster doc",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Founder biography",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Patient recovery journey",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q14",
+        "text": "You get bored when…",
+        "options": [
+          {
+            "label": "A",
+            "text": "There is no room for personal expression",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "There are no puzzles to solve",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "There is no competition",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "No one needs help",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l1_q15",
+        "text": "Gift you love giving:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Handmade or customized items",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "Useful gadgets",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Gift cards to popular stores",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Self-care kits",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "theme": "Skill Alignment",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 2. Acknowledge their strengths and suggest one area to explore.",
+    "questions": [
+      {
+        "id": "art_l2_q1",
+        "text": "Group mural — your contribution:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Color palette and composition",
+            "signal": "visual_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Structural support design",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Sponsorship outreach",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Accessibility and safety notes",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q2",
+        "text": "You critique your own work by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Stepping back for mood and flow",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "Running performance tests",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Checking conversion goals",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Asking if it helps someone",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q3",
+        "text": "Software you enjoy most:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Design, video, or music tools",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "CAD or IDE tools",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Spreadsheets and CRM",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Medical simulators",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q4",
+        "text": "When brainstorming, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sketch rapid concepts",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "List constraints first",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Estimate costs early",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Identify who benefits",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q5",
+        "text": "You handle feedback by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Revising to strengthen the emotional impact",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "Debugging specific errors",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Adjusting the pitch angle",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Checking patient safety impact",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q6",
+        "text": "Portfolio piece you are proudest of:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Something that tells a personal story",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "A working device you built",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "A campaign that gained traction",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "A community health guide",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q7",
+        "text": "Which competition fits you?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Film fest or design challenge",
+            "signal": "collaborative_creator"
+          },
+          {
+            "label": "B",
+            "text": "Hackathon",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "DECA or pitch contest",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "HOSA health event",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q8",
+        "text": "You notice details like…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Typography, rhythm, and balance",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "Load-bearing joints",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Margin and pricing",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Symptoms and patterns",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q9",
+        "text": "Collaboration style:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Co-create visually with others",
+            "signal": "collaborative_creator"
+          },
+          {
+            "label": "B",
+            "text": "Divide tasks by specialty",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Lead strategy and roles",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Support whoever needs care",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q10",
+        "text": "Learning a new technique, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Experiment freely until it feels right",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "Follow precise documentation",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Find the fastest ROI use",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Apply it to help a person",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q11",
+        "text": "Which praise means most?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Your work moved me",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "Your solution is elegant",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Your pitch was convincing",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "You made them feel seen",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q12",
+        "text": "You keep inspiration from…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Travel, films, and street art",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "Engineering documentaries",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Market trend reports",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Clinical case studies",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q13",
+        "text": "When time is tight, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Simplify to one strong visual idea",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "Cut features to ship",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Focus on the key metric",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Prioritize the most vulnerable",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q14",
+        "text": "You teach friends by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Showing examples and demos",
+            "signal": "visual_thinker"
+          },
+          {
+            "label": "B",
+            "text": "Walking through code",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Sharing a business template",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Explaining body systems",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l2_q15",
+        "text": "Dream tool budget — you buy…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Pro camera, tablet, or instruments",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "3D printer and sensors",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Analytics and ads credits",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Lab kits and models",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "theme": "Values and Trade-offs",
+    "format": "binary_choice",
+    "agent_feedback_prompt": "The student just finished level 3. Reflect on the values they revealed and affirm their thoughtfulness.",
+    "questions": [
+      {
+        "id": "art_l3_q1",
+        "text": "Would you take a stable job with no creative input?",
+        "options": [
+          {
+            "label": "A",
+            "text": "No — expression is essential",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "Yes — stability comes first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q2",
+        "text": "Is public vulnerability through your art worth potential criticism?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — honesty matters",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "No — I protect my privacy",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q3",
+        "text": "Would you rather win a local showcase or gain one deeply moved fan?",
+        "options": [
+          {
+            "label": "A",
+            "text": "One deeply moved fan",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "Local showcase win",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q4",
+        "text": "Do you enjoy revising the same piece many times?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — iteration reveals truth",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "No — first draft energy is best",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q5",
+        "text": "Would you study art history even if it does not pay immediately?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — context fuels my work",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "No — I focus on practical paths",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q6",
+        "text": "Is collaborating with others more rewarding than solo masterpieces?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — shared creation energizes me",
+            "signal": "collaborative_creator"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer total control",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q7",
+        "text": "Would you choose a career with irregular income but creative freedom?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — freedom is worth uncertainty",
+            "signal": "creative"
+          },
+          {
+            "label": "B",
+            "text": "No — I need predictable pay",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q8",
+        "text": "Do you prioritize originality over commercial appeal?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Originality first",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "Commercial appeal first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q9",
+        "text": "Would you learn technical skills if they expanded your artistic range?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — tools serve the vision",
+            "signal": "design_minded"
+          },
+          {
+            "label": "B",
+            "text": "No — I stay purely traditional",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q10",
+        "text": "Is teaching others to create part of your long-term dream?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — I love passing on craft",
+            "signal": "collaborative_creator"
+          },
+          {
+            "label": "B",
+            "text": "No — I focus on my own work",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q11",
+        "text": "Would you spend a year on one ambitious portfolio piece?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — depth over quantity",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer many small wins",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q12",
+        "text": "Do aesthetics influence your daily choices (clothes, spaces, food)?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Strongly — design is everywhere",
+            "signal": "aesthetic"
+          },
+          {
+            "label": "B",
+            "text": "Not really — function only",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q13",
+        "text": "Would you advocate for arts funding in your school budget?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — creativity is core education",
+            "signal": "expressive"
+          },
+          {
+            "label": "B",
+            "text": "No — I focus on other priorities",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q14",
+        "text": "Is experimenting with failure part of your creative process?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — failure is data",
+            "signal": "imaginative"
+          },
+          {
+            "label": "B",
+            "text": "No — I avoid public failures",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "art_l3_q15",
+        "text": "Would you merge art with social cause messaging?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — art should speak to issues",
+            "signal": "storyteller"
+          },
+          {
+            "label": "B",
+            "text": "No — I keep art separate from activism",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "theme": "Future Vision",
+    "format": "open_ended",
+    "agent_feedback_prompt": "The student just finished level 4. Celebrate their vision and invite them to imagine next steps.",
+    "questions": [
+      {
+        "id": "art_l4_q1",
+        "text": "Describe an artwork or performance you want to create before graduation.",
+        "expected_signal": "creative"
+      },
+      {
+        "id": "art_l4_q2",
+        "text": "What story from your life deserves to be told visually?",
+        "expected_signal": "expressive"
+      },
+      {
+        "id": "art_l4_q3",
+        "text": "How would you redesign a dull space at school using art?",
+        "expected_signal": "visual_thinker"
+      },
+      {
+        "id": "art_l4_q4",
+        "text": "Which artist inspires you and what would you ask them?",
+        "expected_signal": "storyteller"
+      },
+      {
+        "id": "art_l4_q5",
+        "text": "What emotion do you most want your future work to evoke?",
+        "expected_signal": "design_minded"
+      },
+      {
+        "id": "art_l4_q6",
+        "text": "Describe a creative collaboration you hope to lead.",
+        "expected_signal": "imaginative"
+      },
+      {
+        "id": "art_l4_q7",
+        "text": "If you had a gallery show, what would the theme be?",
+        "expected_signal": "collaborative_creator"
+      },
+      {
+        "id": "art_l4_q8",
+        "text": "How do you balance personal style with audience expectations?",
+        "expected_signal": "aesthetic"
+      },
+      {
+        "id": "art_l4_q9",
+        "text": "What creative risk are you willing to take this year?",
+        "expected_signal": "creative"
+      },
+      {
+        "id": "art_l4_q10",
+        "text": "Describe your ideal studio or creative workspace.",
+        "expected_signal": "expressive"
+      },
+      {
+        "id": "art_l4_q11",
+        "text": "How could art solve a problem in your community?",
+        "expected_signal": "visual_thinker"
+      },
+      {
+        "id": "art_l4_q12",
+        "text": "What mediums do you want to master and why?",
+        "expected_signal": "storyteller"
+      },
+      {
+        "id": "art_l4_q13",
+        "text": "Write a vision statement for the artist you are becoming.",
+        "expected_signal": "design_minded"
+      },
+      {
+        "id": "art_l4_q14",
+        "text": "What does success look like for you in a creative career?",
+        "expected_signal": "imaginative"
+      },
+      {
+        "id": "art_l4_q15",
+        "text": "How will you keep creating when inspiration is low?",
+        "expected_signal": "collaborative_creator"
+      }
+    ]
+  }
+]

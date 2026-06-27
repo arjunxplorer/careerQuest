@@ -1,0 +1,1129 @@
+[
+  {
+    "level": 1,
+    "theme": "Surface Curiosity",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 1. Give brief encouraging feedback about their curiosity.",
+    "questions": [
+      {
+        "id": "med_l1_q1",
+        "text": "Friend is upset — you first…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Listen and validate their feelings",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "Suggest a practical fix",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Distract with something fun",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Analyze why it happened",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q2",
+        "text": "Biology documentary — you watch for…",
+        "options": [
+          {
+            "label": "A",
+            "text": "How organs and cells cooperate",
+            "signal": "curious_biologist"
+          },
+          {
+            "label": "B",
+            "text": "How machines mimic biology",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "How stories are filmed",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "How hospitals are managed",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q3",
+        "text": "You feel fulfilled when you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Help someone feel better",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "Finish a complex build",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Perform for an audience",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Close a successful deal",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q4",
+        "text": "Which volunteer role appeals most?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Hospital or clinic helper",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "STEM outreach tutor",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Community art mentor",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Event fundraiser",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q5",
+        "text": "When someone is hurt, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Stay calm and check on them",
+            "signal": "calm_under_pressure"
+          },
+          {
+            "label": "B",
+            "text": "Figure out what mechanism failed",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Document it for a story",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Organize others to respond",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q6",
+        "text": "You remember details about…",
+        "options": [
+          {
+            "label": "A",
+            "text": "People's preferences and needs",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "Technical specifications",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Visual compositions",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Sales numbers",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q7",
+        "text": "Science topic you never skip:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Human body and disease",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "Physics of motion",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Color theory",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Behavioral economics",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q8",
+        "text": "Group project — you ensure…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Everyone feels heard and supported",
+            "signal": "team_caregiver"
+          },
+          {
+            "label": "B",
+            "text": "The prototype works",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "The presentation shines",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "The budget balances",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q9",
+        "text": "You trust advice from…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Doctors and nurses who explain clearly",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "Engineers with data",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Artists with lived experience",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Founders with track records",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q10",
+        "text": "Which job sounds meaningful?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Pediatric nurse or researcher",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "Robotics engineer",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Brand designer",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Venture capitalist",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q11",
+        "text": "You organize study notes with…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Color-coded systems for accuracy",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "Flowcharts",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Sketches",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Profit projections",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q12",
+        "text": "Emergency drill at school — you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Follow protocol and assist others",
+            "signal": "calm_under_pressure"
+          },
+          {
+            "label": "B",
+            "text": "Inspect equipment function",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Capture footage",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Coordinate announcements",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q13",
+        "text": "You ask \"why\" about…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Symptoms, causes, and treatments",
+            "signal": "curious_biologist"
+          },
+          {
+            "label": "B",
+            "text": "Algorithm behavior",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Audience reactions",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Consumer behavior",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q14",
+        "text": "Compliment that matters:",
+        "options": [
+          {
+            "label": "A",
+            "text": "You make people feel safe",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "You are brilliant with tech",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "You are so creative",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "You are a natural seller",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l1_q15",
+        "text": "Weekend activity pick:",
+        "options": [
+          {
+            "label": "A",
+            "text": "First aid class or health workshop",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "Hackathon",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Gallery opening",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Business case competition",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "theme": "Skill Alignment",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 2. Acknowledge their strengths and suggest one area to explore.",
+    "questions": [
+      {
+        "id": "med_l2_q1",
+        "text": "Lab report — you focus on…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Precise methods and reproducibility",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "Creative hypothesis framing",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Cost of materials",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Audience for results",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q2",
+        "text": "You excel at…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Explaining complex ideas patiently",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "Optimizing systems",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Visual communication",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Persuasive speaking",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q3",
+        "text": "Research question you would pick:",
+        "options": [
+          {
+            "label": "A",
+            "text": "How sleep affects teen health",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "How drones reduce waste",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "How color affects mood in film",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "How pricing affects donations",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q4",
+        "text": "Under pressure you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Slow down and follow checklists",
+            "signal": "calm_under_pressure"
+          },
+          {
+            "label": "B",
+            "text": "Hack a quick solution",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Improvise creatively",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Delegate rapidly",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q5",
+        "text": "You notice when someone…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Is quiet or withdrawn",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "Has inefficient code",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Needs design feedback",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Is underpricing services",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q6",
+        "text": "Team role you prefer:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Care coordinator ensuring everyone is okay",
+            "signal": "team_caregiver"
+          },
+          {
+            "label": "B",
+            "text": "Technical specialist",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Creative director",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Operations lead",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q7",
+        "text": "You study hardest for…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Anatomy and physiology units",
+            "signal": "curious_biologist"
+          },
+          {
+            "label": "B",
+            "text": "Engineering modules",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Art history exams",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Economics tests",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q8",
+        "text": "Ethical dilemma — you ask…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Who could be harmed?",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "What is technically possible?",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "What story is being told?",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "What is the ROI?",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q9",
+        "text": "You keep learning via…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Medical podcasts and journals",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "Tech blogs",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Design critiques",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Market newsletters",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q10",
+        "text": "Which skill practice do you enjoy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Measuring vitals or lab technique",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "Soldering circuits",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Editing video",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Forecasting sales",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q11",
+        "text": "You handle gross or tough moments…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Focus on helping — discomfort is worth it",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "Prefer to avoid them",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Document for art",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Outsource to specialists",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q12",
+        "text": "Mentor you want:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Clinician who combines science and compassion",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "Lead engineer",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Working artist",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Serial entrepreneur",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q13",
+        "text": "You double-check…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Dosages, names, and instructions",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "Code commits",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Color proofs",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Contract clauses",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q14",
+        "text": "Community issue you care about:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mental health access for teens",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "Renewable infrastructure",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Arts funding",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Local business recovery",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l2_q15",
+        "text": "Success in a health project means…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Patients or peers actually feel better",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "System runs efficiently",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Message spreads widely",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Sustainable funding secured",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "theme": "Values and Trade-offs",
+    "format": "binary_choice",
+    "agent_feedback_prompt": "The student just finished level 3. Reflect on the values they revealed and affirm their thoughtfulness.",
+    "questions": [
+      {
+        "id": "med_l3_q1",
+        "text": "Would you take a lower-paying job that directly helps people daily?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — impact over income",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "No — financial stability first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q2",
+        "text": "Can you stay calm when someone else panics?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — I become the steady one",
+            "signal": "calm_under_pressure"
+          },
+          {
+            "label": "B",
+            "text": "No — panic is contagious for me",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q3",
+        "text": "Would you study difficult science for years before practicing?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — mastery protects patients",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer faster paths",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q4",
+        "text": "Is remembering small personal details about patients important?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Very — care is personal",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "Not really — procedures matter more",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q5",
+        "text": "Would you choose night shifts if your team needed coverage?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — teams depend on each other",
+            "signal": "team_caregiver"
+          },
+          {
+            "label": "B",
+            "text": "No — I protect my schedule",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q6",
+        "text": "Do emotional conversations energize rather than drain you?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Energize — connection matters",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "Drain — I prefer tasks over feelings",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q7",
+        "text": "Would you report a mistake even if it hurts your record?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — transparency saves lives",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "No — I would fix it quietly",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q8",
+        "text": "Is lifelong learning non-negotiable in your career plan?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — medicine never stops evolving",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "No — I want to specialize and settle",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q9",
+        "text": "Would you volunteer in underserved communities regularly?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — access gaps need helpers",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "No — I focus on my own path",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q10",
+        "text": "Do you prefer evidence-based decisions over intuition?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Evidence first — then empathy in delivery",
+            "signal": "science_driven"
+          },
+          {
+            "label": "B",
+            "text": "Intuition first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q11",
+        "text": "Would you handle bodily fluids without hesitation in training?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — that is part of the job",
+            "signal": "detail_care"
+          },
+          {
+            "label": "B",
+            "text": "No — that is a dealbreaker",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q12",
+        "text": "Is preventing harm more motivating than heroics?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — prevention is true care",
+            "signal": "patient_centered"
+          },
+          {
+            "label": "B",
+            "text": "No — I want high-intensity rescues",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q13",
+        "text": "Would you collaborate daily with many specialists?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — team care works best",
+            "signal": "team_caregiver"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer working alone",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q14",
+        "text": "Can you deliver hard news gently and honestly?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — honesty with compassion",
+            "signal": "empathetic"
+          },
+          {
+            "label": "B",
+            "text": "No — I avoid difficult conversations",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "med_l3_q15",
+        "text": "Would you pursue medicine even knowing long training hours?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — the calling is worth it",
+            "signal": "helper"
+          },
+          {
+            "label": "B",
+            "text": "No — I want work-life balance sooner",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "theme": "Future Vision",
+    "format": "open_ended",
+    "agent_feedback_prompt": "The student just finished level 4. Celebrate their vision and invite them to imagine next steps.",
+    "questions": [
+      {
+        "id": "med_l4_q1",
+        "text": "Describe a health issue in your community you want to address.",
+        "expected_signal": "empathetic"
+      },
+      {
+        "id": "med_l4_q2",
+        "text": "What kind of healthcare role do you see yourself in?",
+        "expected_signal": "science_driven"
+      },
+      {
+        "id": "med_l4_q3",
+        "text": "Tell us about a time you helped someone through a difficult moment.",
+        "expected_signal": "helper"
+      },
+      {
+        "id": "med_l4_q4",
+        "text": "How do you balance empathy with scientific rigor?",
+        "expected_signal": "detail_care"
+      },
+      {
+        "id": "med_l4_q5",
+        "text": "What medical discovery excites you most right now?",
+        "expected_signal": "patient_centered"
+      },
+      {
+        "id": "med_l4_q6",
+        "text": "Describe how you would explain a diagnosis to a nervous patient.",
+        "expected_signal": "curious_biologist"
+      },
+      {
+        "id": "med_l4_q7",
+        "text": "What ethical principle would guide your practice?",
+        "expected_signal": "calm_under_pressure"
+      },
+      {
+        "id": "med_l4_q8",
+        "text": "How would you support a teammate after a hard shift?",
+        "expected_signal": "team_caregiver"
+      },
+      {
+        "id": "med_l4_q9",
+        "text": "What subjects will you prioritize before pre-med or nursing paths?",
+        "expected_signal": "empathetic"
+      },
+      {
+        "id": "med_l4_q10",
+        "text": "Describe your ideal hospital or clinic environment.",
+        "expected_signal": "science_driven"
+      },
+      {
+        "id": "med_l4_q11",
+        "text": "How do you stay calm when stakes are high?",
+        "expected_signal": "helper"
+      },
+      {
+        "id": "med_l4_q12",
+        "text": "What population do you most want to serve and why?",
+        "expected_signal": "detail_care"
+      },
+      {
+        "id": "med_l4_q13",
+        "text": "Write a vision statement for the caregiver you are becoming.",
+        "expected_signal": "patient_centered"
+      },
+      {
+        "id": "med_l4_q14",
+        "text": "What does success look like for you in a medical career?",
+        "expected_signal": "curious_biologist"
+      },
+      {
+        "id": "med_l4_q15",
+        "text": "How will you keep learning after formal schooling ends?",
+        "expected_signal": "calm_under_pressure"
+      }
+    ]
+  }
+]

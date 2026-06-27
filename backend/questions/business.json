@@ -1,0 +1,1129 @@
+[
+  {
+    "level": 1,
+    "theme": "Surface Curiosity",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 1. Give brief encouraging feedback about their curiosity.",
+    "questions": [
+      {
+        "id": "biz_l1_q1",
+        "text": "School bake sale — you naturally…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Set prices and track profit",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Design the posters",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Build a better display stand",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Make sure everyone feels included",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q2",
+        "text": "You spot a trend early and think…",
+        "options": [
+          {
+            "label": "A",
+            "text": "How could I capitalize on this?",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "How was this built?",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "How can this be beautiful?",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "How does this affect wellbeing?",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q3",
+        "text": "Favorite board game element:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Trading and negotiation",
+            "signal": "negotiator"
+          },
+          {
+            "label": "B",
+            "text": "Building engines",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Story cards",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Cooperative healing quests",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q4",
+        "text": "When plans change last minute, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reorganize the team quickly",
+            "signal": "organizer"
+          },
+          {
+            "label": "B",
+            "text": "Rebuild the technical plan",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Improvise creatively",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Check on stressed teammates",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q5",
+        "text": "You enjoy calculating…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Break-even points and margins",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Load distributions",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Color harmonies",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Dosage schedules",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q6",
+        "text": "Which headline grabs you?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Teen starts profitable lawn service",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "Student wins robotics regionals",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Young filmmaker goes viral",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Student EMT saves a life",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q7",
+        "text": "Group work conflict — you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Facilitate a compromise",
+            "signal": "negotiator"
+          },
+          {
+            "label": "B",
+            "text": "Propose a technical fix",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Redirect with humor and art",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Listen to each side calmly",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q8",
+        "text": "You admire leaders who…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Build teams and seize opportunities",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "Invent breakthrough devices",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Create culture-shifting art",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Serve patients selflessly",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q9",
+        "text": "Extra $20 — you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reinvest in a small venture",
+            "signal": "risk_taker"
+          },
+          {
+            "label": "B",
+            "text": "Buy maker parts",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Buy art supplies",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Donate to a health cause",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q10",
+        "text": "You volunteer to…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Lead meetings and set agendas",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "Handle the build",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Design slides",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Take notes on feelings",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q11",
+        "text": "Which podcast topic?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Startup stories and markets",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "Space engineering",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Creative process interviews",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Medical breakthroughs",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q12",
+        "text": "You enjoy persuading others when…",
+        "options": [
+          {
+            "label": "A",
+            "text": "The idea benefits everyone",
+            "signal": "persuasive"
+          },
+          {
+            "label": "B",
+            "text": "The data is undeniable",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "The vision is beautiful",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Someone needs support",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q13",
+        "text": "Closet organization reflects…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Systems for efficiency",
+            "signal": "organizer"
+          },
+          {
+            "label": "B",
+            "text": "Tool accessibility",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Visual inspiration boards",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Calming minimalism",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q14",
+        "text": "You notice businesses…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Branding, pricing, and customer flow",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "Product engineering quality",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Store aesthetics",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Staff wellness programs",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l1_q15",
+        "text": "Dream school club to start:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Student-run marketplace",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "Maker space",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Film collective",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Peer wellness network",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "theme": "Skill Alignment",
+    "format": "multiple_choice",
+    "agent_feedback_prompt": "The student just finished level 2. Acknowledge their strengths and suggest one area to explore.",
+    "questions": [
+      {
+        "id": "biz_l2_q1",
+        "text": "Fundraiser planning — your strength:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sponsorship pitches and budgets",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Building donation kiosks",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Event theme and visuals",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Volunteer care schedules",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q2",
+        "text": "You evaluate an idea by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Market size and competition",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "Technical feasibility",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Creative uniqueness",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Community health impact",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q3",
+        "text": "Negotiation style:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Find win-win trades",
+            "signal": "negotiator"
+          },
+          {
+            "label": "B",
+            "text": "Optimize specifications",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Appeal to shared values",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Prioritize fairness and trust",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q4",
+        "text": "You track goals with…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Spreadsheets and milestones",
+            "signal": "organizer"
+          },
+          {
+            "label": "B",
+            "text": "Version control",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Mood boards",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Care checklists",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q5",
+        "text": "Risk that excites you:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Launching before everything is perfect",
+            "signal": "risk_taker"
+          },
+          {
+            "label": "B",
+            "text": "Testing unproven hardware",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Publishing raw creative work",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Trying a new treatment approach",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q6",
+        "text": "You motivate peers by…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Showing the vision and reward",
+            "signal": "persuasive"
+          },
+          {
+            "label": "B",
+            "text": "Demonstrating a prototype",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Sharing an inspiring story",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Recognizing their effort",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q7",
+        "text": "Which role in a startup?",
+        "options": [
+          {
+            "label": "A",
+            "text": "CEO or growth lead",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "CTO or engineer",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Creative director",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Medical advisor",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q8",
+        "text": "You read terms and conditions…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Skim for business model clues",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "Look for data privacy tech",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Rarely — not my focus",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Check health data use",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q9",
+        "text": "Side hustle idea appeal:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reselling or service arbitrage",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "Custom gadget repairs",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Commissioned art",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Fitness coaching",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q10",
+        "text": "When resources are limited, you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Prioritize highest ROI activities",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Simplify the build",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Focus on one striking element",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Protect essential care tasks",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q11",
+        "text": "Debate club topic you want:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Should schools teach financial literacy?",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "AI ethics in engineering",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Art funding priorities",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Healthcare access for teens",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q12",
+        "text": "You enjoy networking because…",
+        "options": [
+          {
+            "label": "A",
+            "text": "New connections open opportunities",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "I learn technical tips",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "I find collaborators",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "I meet mentors who care",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q13",
+        "text": "Competition metric you watch first:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Profit or growth rate",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Performance benchmarks",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Audience engagement",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Patient outcomes",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q14",
+        "text": "Project delay — you…",
+        "options": [
+          {
+            "label": "A",
+            "text": "Re-sequence tasks and renegotiate",
+            "signal": "negotiator"
+          },
+          {
+            "label": "B",
+            "text": "Debug bottlenecks",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Pivot the creative direction",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Communicate with affected people",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l2_q15",
+        "text": "Business book you would pick:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Lean Startup or Zero to One",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "Skunk Works",
+            "signal": "neutral"
+          },
+          {
+            "label": "C",
+            "text": "Steal Like an Artist",
+            "signal": "neutral"
+          },
+          {
+            "label": "D",
+            "text": "Being Mortal",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "theme": "Values and Trade-offs",
+    "format": "binary_choice",
+    "agent_feedback_prompt": "The student just finished level 3. Reflect on the values they revealed and affirm their thoughtfulness.",
+    "questions": [
+      {
+        "id": "biz_l3_q1",
+        "text": "Would you start a business before finishing school?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — real experience beats waiting",
+            "signal": "risk_taker"
+          },
+          {
+            "label": "B",
+            "text": "No — education comes first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q2",
+        "text": "Is earning more important than work-life balance at 25?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — early hustle builds freedom",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "No — balance is non-negotiable",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q3",
+        "text": "Would you fire a friend who hurts team performance?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — leadership requires hard calls",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "No — loyalty over metrics",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q4",
+        "text": "Do you enjoy selling ideas more than building them?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — persuasion is my edge",
+            "signal": "persuasive"
+          },
+          {
+            "label": "B",
+            "text": "No — I prefer building",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q5",
+        "text": "Would you take a loan to scale a proven idea?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — calculated debt can accelerate growth",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "No — debt feels too risky",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q6",
+        "text": "Is competition motivating rather than stressful?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Motivating — rivalry sharpens me",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "Stressful — I avoid rivalry",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q7",
+        "text": "Would you pivot quickly if data shows a failing strategy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — adapt or die",
+            "signal": "strategic"
+          },
+          {
+            "label": "B",
+            "text": "No — consistency builds trust",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q8",
+        "text": "Do you prefer leading from the front publicly?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — visibility builds credibility",
+            "signal": "leader"
+          },
+          {
+            "label": "B",
+            "text": "No — I lead quietly behind scenes",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q9",
+        "text": "Would you trade passion project for higher-paying opportunity?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Higher pay — resources enable future dreams",
+            "signal": "money_minded"
+          },
+          {
+            "label": "B",
+            "text": "Passion — money follows purpose",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q10",
+        "text": "Is negotiating everyday prices (rides, supplies) fun for you?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — every dollar counts",
+            "signal": "negotiator"
+          },
+          {
+            "label": "B",
+            "text": "No — I accept listed prices",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q11",
+        "text": "Would you run a team with strict KPIs?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — clarity drives results",
+            "signal": "organizer"
+          },
+          {
+            "label": "B",
+            "text": "No — KPIs kill morale",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q12",
+        "text": "Do you see problems primarily as market gaps?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — problems are opportunities",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "No — problems are human struggles first",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q13",
+        "text": "Would you work 60-hour weeks during a launch?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes — short sprints for big wins",
+            "signal": "risk_taker"
+          },
+          {
+            "label": "B",
+            "text": "No — sustainable pace only",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q14",
+        "text": "Is personal brand building important in your career plan?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Very — reputation is an asset",
+            "signal": "persuasive"
+          },
+          {
+            "label": "B",
+            "text": "Not really — work should speak",
+            "signal": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "biz_l3_q15",
+        "text": "Would you rather own 100% of a small business or 10% of a large one?",
+        "options": [
+          {
+            "label": "A",
+            "text": "100% of small — control matters",
+            "signal": "entrepreneurial"
+          },
+          {
+            "label": "B",
+            "text": "10% of large — scale matters",
+            "signal": "neutral"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "theme": "Future Vision",
+    "format": "open_ended",
+    "agent_feedback_prompt": "The student just finished level 4. Celebrate their vision and invite them to imagine next steps.",
+    "questions": [
+      {
+        "id": "biz_l4_q1",
+        "text": "Describe a problem at school you would solve with a business.",
+        "expected_signal": "strategic"
+      },
+      {
+        "id": "biz_l4_q2",
+        "text": "What kind of company do you hope to start or lead one day?",
+        "expected_signal": "entrepreneurial"
+      },
+      {
+        "id": "biz_l4_q3",
+        "text": "How would you use $500 to test a business idea?",
+        "expected_signal": "leader"
+      },
+      {
+        "id": "biz_l4_q4",
+        "text": "What does ethical entrepreneurship mean to you?",
+        "expected_signal": "negotiator"
+      },
+      {
+        "id": "biz_l4_q5",
+        "text": "Describe a leader you admire and what you would copy from them.",
+        "expected_signal": "money_minded"
+      },
+      {
+        "id": "biz_l4_q6",
+        "text": "What skills do you need before running your first venture?",
+        "expected_signal": "organizer"
+      },
+      {
+        "id": "biz_l4_q7",
+        "text": "How do you handle failure in a project you led?",
+        "expected_signal": "persuasive"
+      },
+      {
+        "id": "biz_l4_q8",
+        "text": "What industry trend excites you most and why?",
+        "expected_signal": "risk_taker"
+      },
+      {
+        "id": "biz_l4_q9",
+        "text": "Write a one-paragraph pitch for your dream startup.",
+        "expected_signal": "strategic"
+      },
+      {
+        "id": "biz_l4_q10",
+        "text": "How would you balance profit with community impact?",
+        "expected_signal": "entrepreneurial"
+      },
+      {
+        "id": "biz_l4_q11",
+        "text": "What role does teamwork play in your business vision?",
+        "expected_signal": "leader"
+      },
+      {
+        "id": "biz_l4_q12",
+        "text": "Describe your ideal first customer.",
+        "expected_signal": "negotiator"
+      },
+      {
+        "id": "biz_l4_q13",
+        "text": "What financial goal would make you feel successful at 30?",
+        "expected_signal": "money_minded"
+      },
+      {
+        "id": "biz_l4_q14",
+        "text": "How will you learn from mentors in business?",
+        "expected_signal": "organizer"
+      },
+      {
+        "id": "biz_l4_q15",
+        "text": "Write a vision statement for the entrepreneur you are becoming.",
+        "expected_signal": "persuasive"
+      }
+    ]
+  }
+]
